@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKSHOP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a class="button" href="index.html">¿Qué es un control de versiones?</a> </li>
+        <li><a class="button" href="git.html">¿Qué es GIT?</a> </li> 
+        <li><a class="button" href="repositorio.html">¿Qué es un repositorio?, repositorio locales y remotos.</a> </li>
+        <li><a class="button" href="github.html">¿Qué es GITHUB?</a> </li> 
+        <li><a class="button" href="rama.html">¿Qué es una rama en GIT y para qué sirve?</a> </li>
+        <li><a class="button" href="estados.html">¿Cuáles son los estados en GIT?</a> </li> 
+        <li><a class="button" href="terminal.html">¿Qué es la terminal, consola o línea de comandos y para qué sirve?</a> </li>
+        <li><a class="button" href="funcionamiento.html">Escribir el funcionamiento de cada uno de los siguientes comandos:</a> </li>
+        <li><a class="button" href="comandos.html">Realizar un listado con el nombre y el funcionamiento de los comandos vistos en la sesión de clase de GIT.</a> </li>
+    </ul>
+    <h1 class="h1">¿Cuáles son los estados en GIT?</h1>
+    <img class="img" src="/img/estados.png" alt="">
+    <p>En Git, los archivos pueden estar en uno de tres estados principales: modificados (modified), preparados (staged), o confirmados (committed).</p>
+    <h1 class="h1">Estados en Git</h1>
+    <details name="info">
+        <summary class="h1" p>1.Modificado (Modified).</p></summary>
+        <P>Cuando se edita un archivo en el directorio de trabajo (working directory), este archivo está en estado modificado. En este estado, 
+            los cambios realizados aún no han sido preparados ni confirmados.</P>
+            </details>
+            <details name="info">
+                <summary class="h1" p>2.Preparado (Staged).</p></summary>
+                <P>Un archivo en estado preparado ha sido marcado para ser incluido en el próximo commit. Este estado se alcanza utilizando el comando git add, 
+                    que mueve los cambios del directorio de trabajo al área de preparación (staging area).</P>
+                    </details>
+                    <details name="info">
+                        <summary class="h1" p>3.Confirmado (Committed).</p></summary>
+                        <P>Un archivo en estado confirmado ha sido guardado en el historial del repositorio. Esto se logra utilizando el comando git commit, 
+                            que toma todos los cambios preparados y los guarda en el historial del repositorio local.</P>
+                            </details>
+
+</body>
+</html>

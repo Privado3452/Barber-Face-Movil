@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKSHOP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a class="button" href="index.html">¿Qué es un control de versiones?</a> </li>
+        <li><a class="button" href="git.html">¿Qué es GIT?</a> </li> 
+        <li><a class="button" href="repositorio.html">¿Qué es un repositorio?, repositorio locales y remotos.</a> </li>
+        <li><a class="button" href="github.html">¿Qué es GITHUB?</a> </li> 
+        <li><a class="button" href="rama.html">¿Qué es una rama en GIT y para qué sirve?</a> </li>
+        <li><a class="button" href="estados.html">¿Cuáles son los estados en GIT?</a> </li> 
+        <li><a class="button" href="terminal.html">¿Qué es la terminal, consola o línea de comandos y para qué sirve?</a> </li>
+        <li><a class="button" href="funcionamiento.html">Escribir el funcionamiento de cada uno de los siguientes comandos:</a> </li>
+        <li><a class="button" href="comandos.html">Realizar un listado con el nombre y el funcionamiento de los comandos vistos en la sesión de clase de GIT.</a> </li>
+    </ul>
+    <h1 class="h1">¿Qué es un repositorio?, repositorio locales y remotos.</h1>
+    <img class="img" src="/img/repositorio.jpg" alt="">
+    <p>Es un espacio de almacenamiento donde se guarda todo el historial de un proyecto, incluyendo su código fuente, archivos, 
+        historial de cambios, ramas, etiquetas y metadatos asociados. Es una parte esencial de cualquier sistema de control de versiones, 
+        como Git, ya que permite a los desarrolladores rastrear, gestionar y colaborar en el desarrollo de software de manera eficiente.
+    </p>
+    <br>
+    <p>Existen dos tipos principales de repositorios: repositorios locales y repositorios remotos.</p>
+    <details name="info">
+        <summary class="h1" p>1.Repositorios locales.</p></summary>
+        <P>Es una copia del repositorio que reside en la máquina del desarrollador. Contiene todo el historial de cambios y permite realizar operaciones como commits, 
+            branches y merges sin necesidad de conexión a Internet.</P>
+            <img class="tipos" src="/img/local.png" alt="">
+        <p class="h1">Características:</p> 
+        <p>* Creación: Se crea usando el comando git init en un directorio nuevo o git clone [url] para clonar un repositorio existente.</p>
+        <p>* Autonomía: Permite trabajar independientemente de cualquier servidor remoto.</p>
+        <p>* Historial Completo: Contiene todo el historial del proyecto.</p>
+            </details>
+            <details name="info">
+                <summary class="h1" p>2.Repositorios remotos.</p></summary>
+                <P>Es una versión del repositorio que se aloja en un servidor remoto o en una plataforma de alojamiento de código como GitHub, GitLab o Bitbucket. 
+                    Se utiliza para compartir el trabajo entre desarrolladores y coordinar el desarrollo del proyecto.</P>
+                    <img class="tipos" src="/img/remoto.png" alt="">
+                <p class="h1">Características:</p> 
+                <p>* Accesibilidad: Se puede acceder a él desde cualquier lugar con conexión a Internet.</p>
+                <p>* Sincronización: Los desarrolladores pueden sincronizar sus repositorios locales con el remoto mediante comandos como git push y git pull.</p>
+                <p>* Colaboración: Facilita la colaboración entre equipos, permitiendo a múltiples desarrolladores trabajar en el mismo proyecto.</p>
+                    </details>
+
+</body>
+</html>
